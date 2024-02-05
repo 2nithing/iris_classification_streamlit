@@ -26,5 +26,5 @@ if clicked:
     else:
         con2.write('**Versicolor**')
 
-con2.image('iris.png)
+con2.image('iris.png')
 
