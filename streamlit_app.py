@@ -14,7 +14,7 @@ in2 = con1.number_input(label="enter sepal width",min_value=0.0,value=1.0,step=.
 in3 = con1.number_input(label="enter petal length",min_value=0.0,value=1.0,step=.1)
 in4 = con1.number_input(label="enter petal width",min_value=0.0,value=1.0,step=.1)
 
-clicked = st.button(label="Predict")
+clicked = con1.button(label="Predict")
 
 con2 = col2.container(border=True)
 if clicked:
